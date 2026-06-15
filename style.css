@@ -1,0 +1,14 @@
+
+        body {
+            background-color: #121212;
+            font-family: 'Inter';
+
+        }
+
+        .main_title {
+            color: aliceblue;
+            text-align: center;
+            font-size: xx-large;
+            text-shadow: 0 0 10px #649aff;
+            
+        }
