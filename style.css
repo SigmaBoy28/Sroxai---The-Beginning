@@ -62,34 +62,84 @@
             
         }
 
-        .about{
-            color:#3B82FF;
+        .about{color:#3B82FF;}
+
+        .interests {color:#FFd600;}
+
+        .ideas {color: #00ff9d;}
+
+        .goals {color:#FF3D6E;}
+
+        .talents {color:#73A8FF;}
+
+        .Sroxai {color: #FFE96A;}
+
+        .achievements {color: #7DFFC7;}
+
+        .links {color: #FF7A99;}
+
+        .watermark {
+            text-align: right;
+            margin-top: 40px;
+            color: #10182B;
         }
 
-        .interests {
-            color:#FFd600;
+        .about_title {
+            font-family: Consolas, monospace;
+            display: block;
+
+            width: 300px;
+            padding: 20px;
+            background: #10182B;
+
+            border-radius: 20px;
+            border: 1px solid rgba(0,247,255,0.2);
+
+            color: #00F7FF;
+            text-align: center;
+            font-size: xx-large;
+
+            text-shadow:
+            0 0 10px #00F7FF,
+            0 0 25px #00F7FF,
+            0 0 50px #00F7FF;
+
+            margin: auto;
+
+            transition: 0.3s;
+
+            text-decoration: none;
+            margin-top: 30px;
+            margin-bottom: 30px;
         }
 
-        .ideas {
-            color: #00ff9d;
+        .about_title:hover {
+            transform: translateY(-8px);
+
+            box-shadow:
+            0 0 10px #73A8FF,
+            0 0 25px #73A8FF,
+            0 0 50px #73A8FF;
+        
         }
 
-        .goals {
-            color:#FF3D6E;
+        .known_as {
+            text-align: center;
         }
 
-        .talents {
-            color:#73A8FF;
-        }
+        .cyan {color: #00F7FF;}
 
-        .Sroxai {
-            color: #FFE96A;
-        }
+        .blue {color: #3B82FF;}
+        
+        .lcyan {color: #5EFFF8;}
 
-        .achievements {
-            color: #7DFFC7;
-        }
+        .yellow {color: #FFD600;}
 
-        .links {
-            color: #FF7A99;
-        }
+        .purple {color: #B026FF;}
+
+        .lpurple {color: #D07DFF;}
+
+        .green {color: #00ff9d;}
+
+        .red {color: #FF3D6E;}
+
