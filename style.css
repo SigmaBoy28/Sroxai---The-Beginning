@@ -59,6 +59,7 @@
 
             width: 80%;
             margin: auto;
+            margin-bottom: 80px;
             
         }
 
@@ -79,8 +80,7 @@
         .links {color: #FF7A99;}
 
         .watermark {
-            text-align: right;
-            margin-top: 40px;
+            text-align: center;
             color: #10182B;
         }
 
@@ -127,19 +127,58 @@
             text-align: center;
         }
 
-        .cyan {color: #00F7FF;}
+        .other_card {
+            display: block;
+            width: 90%;
+            padding: 20px;
 
-        .blue {color: #3B82FF;}
-        
-        .lcyan {color: #5EFFF8;}
+            text-align: center;
 
-        .yellow {color: #FFD600;}
+            background: #10182B;
+            color: white;
 
-        .purple {color: #B026FF;}
+            border-radius: 20px;
 
-        .lpurple {color: #D07DFF;}
+            text-decoration: none;
 
-        .green {color: #00ff9d;}
+            transition: 0.3s;
 
-        .red {color: #FF3D6E;}
+            margin: auto;
+            margin-top: 32px;
 
+            border: 1px solid rgba(0,247,255,0.2);
+
+            box-shadow: 
+                0 0 8px rgba(0,247,255,0.25), 
+                0 0 20px rgba(0,247,255,0.15);
+        }
+
+        .important {color: #3b82ff;}
+        .sub-important {color: #b026ff;}
+        .unique {color: #ff7b00;}
+        .numerical {color: #ffd600;}
+        .normal {color: #ffffff;}
+        .character {color: #ff7a99;}
+        .other {color: #ffa64d;}
+
+        .primary {color: #ff3d6e;}
+        .secondary {color: #00ff9d;}
+        .tertiary {color: #73a8ff;}
+        .special {color: #ff7ae6;}
+
+
+
+/* color preferrences
+important: blue #3b82ff
+sub-important: purple #b026ff
+unique: orange #ff7b00
+numerical: yellow #ffd600
+character: soft-red #ff7a99
+color: soft-orange #ffa64d
+
+primary: red #ff3d6e
+secondary: green #00ff9d
+tertiary: soft-blue #73a8ff
+special: soft-pink #ff7ae6
+
+*/
