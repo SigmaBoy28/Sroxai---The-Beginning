@@ -211,6 +211,7 @@
             text-decoration: none;
 
             margin: auto;
+            margin-bottom: 40px;
 
             border: 1px solid rgba(0,247,255,0.2);
 
@@ -232,6 +233,10 @@
         .secondary {color: #00ff9d;}
         .tertiary {color: #73a8ff;}
         .special {color: #ff7ae6;}
+
+        html {
+            scroll-behavior: smooth;
+        }
 
 
 
